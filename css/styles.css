@@ -161,6 +161,7 @@ svg {
     ),
     url(../images/hero-background.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   padding-top: 188px;
   padding-bottom: 188px;
 }
