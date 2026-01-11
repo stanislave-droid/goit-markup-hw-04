@@ -31,6 +31,10 @@ p {
   padding: 0;
 }
 
+svg {
+  display: block;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -194,6 +198,14 @@ p {
 
 .features-items {
   max-width: calc((100% - 72px) / 4);
+}
+
+.features-images-container {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  padding: 23px 99px;
+  background-color: #fdf4f7;
+  margin-bottom: 8px;
 }
 
 .features-items-title {
