@@ -35,6 +35,12 @@ svg {
   display: block;
 }
 
+*:hover *,
+*:focus * {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -360,8 +366,30 @@ svg {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
+.portfolio-hidden-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-items:hover .portfolio-items-hidden-text {
+  transform: translateY(0);
+}
+
 .portfolio-items-img {
   display: block;
+}
+
+.portfolio-items-hidden-text {
+  position: absolute;
+  top: 0;
+  padding: 40px 32px;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  transform: translateY(100%);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
 .portfolio-cards-content {
