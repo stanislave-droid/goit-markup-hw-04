@@ -14,6 +14,13 @@ ul {
 a {
   text-decoration: none;
   font-style: normal;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 h1,
@@ -33,12 +40,6 @@ p {
 
 svg {
   display: block;
-}
-
-* *:hover,
-* *:focus {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo {
@@ -365,6 +366,8 @@ svg {
 .portfolio-items {
   height: 420px;
   width: calc((100% - 48px) / 3);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-items:hover,
