@@ -432,6 +432,7 @@ svg {
 
 .footer-flex-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-content {
@@ -468,6 +469,7 @@ svg {
 .footer-links-icon {
 }
 
-.footer-links-icon:hover {
+.footer-links-icon:hover,
+.footer-links-icon:focus {
   background-color: #31d0aa;
 }
