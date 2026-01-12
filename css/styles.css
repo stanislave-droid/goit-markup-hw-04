@@ -76,7 +76,8 @@ svg {
   background-color: #4d5ae5;
 }
 
-.links-items-icon:hover {
+.links-items-icon:hover,
+.links-items-icon:focus {
   background-color: #404bbf;
 }
 
@@ -121,6 +122,22 @@ svg {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
+  position: relative;
+}
+
+.header-underline {
+  color: #404bbf;
+}
+
+.header-underline::after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 0;
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
 }
 
 .header-navigation-panel-items-text:hover,
@@ -337,7 +354,8 @@ svg {
   width: calc((100% - 48px) / 3);
 }
 
-.portfolio-items:hover {
+.portfolio-items:hover,
+.portfolio-items:focus {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
