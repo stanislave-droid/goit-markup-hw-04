@@ -35,8 +35,8 @@ svg {
   display: block;
 }
 
-*:hover *,
-*:focus * {
+* *:hover,
+* *:focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -394,6 +394,8 @@ svg {
   height: 100%;
   background-color: #4d5ae5;
   transform: translateY(100%);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
