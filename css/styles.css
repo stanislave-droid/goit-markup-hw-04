@@ -14,11 +14,13 @@ ul {
 a {
   text-decoration: none;
   font-style: normal;
+  transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 button {
+  transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -367,6 +369,7 @@ svg {
 .portfolio-items {
   height: 420px;
   width: calc((100% - 48px) / 3);
+  transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -398,6 +401,7 @@ svg {
   height: 100%;
   background-color: #4d5ae5;
   transform: translateY(100%);
+  transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 1.5;
